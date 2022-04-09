@@ -1,0 +1,155 @@
+
+/* background color */
+body {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* header image section */
+header img {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    max-width: auto;
+}
+
+/* section header font properties*/
+h1 {
+    font-family: 'aktiv-grotesk-thin';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 40px;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+/* color section with image blocks*/
+.colors {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* sets spacing of colored blocks to equally fill page */
+ul {
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+    font-family: 'aktiv-grotesk-thin';
+
+}
+
+/* places blocks in a line and adds shadow */
+.colors li {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    box-shadow: 4px 4px black;
+}
+
+/* sizes block container*/
+.colorBlock {
+    width: min-content;
+    min-height: 320px;
+}
+
+/* positions colored block details underneath */
+.colorDetails {
+    position: relative;
+    top: 210px;
+}
+
+/* colors of squares */
+.filterYellow {
+    background-color: yellow;
+}
+
+.lensBlue {
+    background-color: blue;
+}
+
+.shutterBlack {
+    background-color: black;
+    box-shadow: 4px 4px gray;
+}
+
+/*responsive code for stacking color blocks*/
+@media screen and (max-width: 720px) {
+    ul {
+        display: block;
+    }
+    li {
+        margin: 20px;
+    }
+}
+
+/* Typography Section CSS */
+.typography {
+    padding: 20px;
+}
+
+.typographyList {
+    display: flex;
+    padding-left: 0;
+    justify-content: space-around;
+}
+
+.typography li {
+    list-style: none;
+}
+
+.agRegular {
+    font-family: 'aktiv-grotesk';
+    font-size: 30px;
+}
+
+.agThin {
+    font-family: 'aktiv-grotesk-thin';
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.SemiBold {
+    font-weight: 600;
+}
+
+.Bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Style Guide section css */
+.styleGuide {
+    padding: 20px;
+}
+
+table {
+    font-family: 'aktiv-grotesk-thin';
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+td {
+    padding: 10px;
+}
+
+#guideH1 {
+    font-family: 'aktiv-grotesk';
+    font-size: 40px; 
+    font-weight: 700;
+}
+
+#guideH2 {
+    font-family: 'aktiv-grotesk';
+    font-size: 30px; 
+    font-weight: 600;
+}
+
+#guideP {
+    font-family: 'aktiv-grotesk-thin';
+    font-size: 30px; 
+    font-weight: 400;
+}

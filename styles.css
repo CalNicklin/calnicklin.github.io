@@ -21,7 +21,7 @@ header h2 {
     text-align: end;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 510px) {
     header {
         position: relative;
         top: 3.75rem;
@@ -73,7 +73,7 @@ main {
     height: 28.125rem;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 510px) {
     .bannerText {
         position: absolute;
         top: 0.625rem;
